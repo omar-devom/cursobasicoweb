@@ -1,0 +1,53 @@
+/*
+selector . Es la manera en que mandamos a llamar algun elemento de html
+Hay 3 tipos
+1-id
+2-class
+3-tag html
+*/
+
+*{
+    font-family: 'Lato',  sans-serif,serif;
+}
+
+h1{
+    background-color: blueviolet;
+    color: blue;
+    font-family: 'Quattrocento', serif;
+}
+
+#la-desordenada{
+    background-color: brown;
+}
+
+/*Comienza ejercicio de jerarquia*/
+/*1.id*/
+#la-ordenada{
+    background-color: bisque ;
+}
+
+/*2.class*/
+.item-list{
+    background-color: aqua;
+}
+
+/*tag*/
+ol{
+    background-color: forestgreen;
+}
+
+/*Termina ejercicio de jerarquia*/
+/*EVITAR USAR EL VALOR IMPORTANT PLEASE!!!!!!!!*/
+
+#la-desordenada li.selected{
+    padding: 10px;
+    background-color: magenta;
+    border-color: black ;
+    border-width: 5px;
+    border-style: solid;
+    margin-top: 40px;
+}
+
+#la-ordenada .selected{
+    background-color: black !important;
+}
