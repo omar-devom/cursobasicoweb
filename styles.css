@@ -15,6 +15,9 @@ h1{
     color: blue;
     font-family: 'Quattrocento', serif;
 }
+h1:hover{
+    background-color: wheat;
+}
 
 #la-desordenada{
     background-color: brown;
@@ -39,7 +42,7 @@ ol{
 /*Termina ejercicio de jerarquia*/
 /*EVITAR USAR EL VALOR IMPORTANT PLEASE!!!!!!!!*/
 
-#la-desordenada li.selected{
+#la-desordenada li.selected.a{
     padding: 10px;
     background-color: magenta;
     border-color: black ;
