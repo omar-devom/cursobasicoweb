@@ -7,5 +7,16 @@ Hay 3 tipos
 */
 
 *{
-    font-family: 'Lato',  sans-serif,serif;
+    font-family: 'Biryani', sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #ffF5F5F5;
+}
+.header{
+    background-color: #fff;
+}
+.header__img{
+    height: 60px;
 }
