@@ -7,50 +7,16 @@ Hay 3 tipos
 */
 
 *{
-    font-family: 'Lato',  sans-serif,serif;
+    font-family: 'Biryani', sans-serif;
 }
 
-h1{
-    background-color: blueviolet;
-    color: blue;
-    font-family: 'Quattrocento', serif;
+body{
+    margin: 0;
+    background: #ffF5F5F5;
 }
-h1:hover{
-    background-color: wheat;
+.header{
+    background-color: #fff;
 }
-
-#la-desordenada{
-    background-color: brown;
-}
-
-/*Comienza ejercicio de jerarquia*/
-/*1.id*/
-#la-ordenada{
-    background-color: bisque ;
-}
-
-/*2.class*/
-.item-list{
-    background-color: aqua;
-}
-
-/*tag*/
-ol{
-    background-color: forestgreen;
-}
-
-/*Termina ejercicio de jerarquia*/
-/*EVITAR USAR EL VALOR IMPORTANT PLEASE!!!!!!!!*/
-
-#la-desordenada li.selected.a{
-    padding: 10px;
-    background-color: magenta;
-    border-color: black ;
-    border-width: 5px;
-    border-style: solid;
-    margin-top: 40px;
-}
-
-#la-ordenada .selected{
-    background-color: black !important;
+.header__img{
+    height: 60px;
 }
