@@ -6,17 +6,149 @@ Hay 3 tipos
 3-tag html
 */
 
+/*
+Código de Jhovanni
 *{
     font-family: 'Biryani', sans-serif;
 }
 
 body{
     margin: 0;
-    background: #ffF5F5F5;
+    background: #000000;
+
 }
 .header{
+	width: 100%;
+	display: flex; 
+	justify-content: space-between;
     background-color: #fff;
+
 }
 .header__img{
     height: 60px;
+
 }
+.header__menu {
+	width: 50%;
+
+}
+.header__menu ul{
+	width: 100%;
+	list-style-type:none;
+	display: flex; 
+	justify-content: space-around;
+}
+*/
+
+*{
+    font-family: 'Biryani', sans-serif;
+}
+
+body{
+    margin: 0;
+    background: #000000;
+}
+
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.header__img{
+    height: 60px;
+}
+
+.header__menu
+/*
+    header
+*/
+.header{
+    background-color: #fff;
+    margin: 16px;
+}
+.header__img{
+    height: 60px;
+    float: left;
+}
+
+.header__img:hover{
+    background-color: #B5B5A8;
+}
+
+.header__menu{
+    float: right;
+}
+
+.header__menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header__menu ul li{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.header__menu ul li:hover{
+    background-color: #B5B5A8;
+}
+
+.header__menu ul li a{
+    text-decoration: none;
+    color: #363622;
+    font-size: 18px;
+}
+
+/*
+    landingpage - section to action
+*/
+
+.to_action{
+    min-height: 100vh;
+    
+}
+
+.to_action__img{
+    min-width: 100vw;
+    position: absolute;
+    right: 0;
+    top: 10%;
+ 
+}
+
+.to_action__img--layer{
+    position: absolute;
+    right: 0;
+    top: 10%;
+    background-color: #36362276;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.to_action__button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 8px solid #fff;
+    margin: 0px;
+}
+
+.to_action__button h1{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    padding: 50px;
+    margin: 0px;
+}
+
+.to_action__button h1:hover{
+    
+    color: #E8BE1F;
+}
+
