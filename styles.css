@@ -41,35 +41,21 @@ body{
 */
 
 *{
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    
 }
 
 body{
     margin: 0;
-    background: #000000;
     overflow-x: hidden;
 }
-
-
-.header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-    z-index: 100;
-}
-
-.header__img{
-    height: 60px;
-}
-
-.header__menu
 /*
     header
 */
 .header{
     background-color: #fff;
     margin: 16px;
+    z-index: 999;
 }
 .header__img{
     height: 60px;
@@ -124,12 +110,16 @@ body{
 
 .to_action__img--layer{
     position:  absolute;
-    top: 7%;
+    top: 9%;
     left: 0%;
     background-color: #36362276;
     min-height: 100vh;
     width: 100vw;
     text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -140,7 +130,7 @@ body{
 
 .to_action__button h1{
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
     color: #fff;
     padding: 50px;
 
