@@ -140,3 +140,68 @@ body{
     color: #E8BE1F;
 }
 
+/* Landing Page - Section About_us */
+
+.enterprise_info{
+
+   /* margin-block-start: 5%; */
+   margin: auto;
+      
+}
+
+.enterprise_info__about_us{
+
+    /*margin-left: 30vw; */
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.enterprise_info__mv{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.enterprise_info__mission{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+
+.enterprise_info__mission hr{
+
+
+}
+
+.enterprise_info__vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-content: flex-end; */
+    text-align: end;
+   
+}
+
+/*
+.enterprise_info__line{
+
+    border: 5px solid red;
+    width: 15%;
+    margin: 0;
+
+} */
+
+
+
+
+
+
+
