@@ -248,3 +248,30 @@ body{
     margin-top: 7rem;
     margin-right: 9rem;
   }
+
+  .footer_list{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .footer_list_web{
+    color:white;
+  }
+
+.footer_list_mobile{
+    color: white;
+}
+
+.footer_list_support{
+    color: white;
+}
+
+.footer_list_branding{
+    color: white;
+}
+
+.footer_list_diseño{
+    color: white;
+}
