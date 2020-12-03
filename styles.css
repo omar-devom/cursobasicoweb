@@ -1,57 +1,3 @@
-/*
-selector . Es la manera en que mandamos a llamar algun elemento de html
-Hay 3 tipos
-1-id
-2-class
-3-tag html
-*/
-
-/*
-Código de Jhovanni
-*{
-    font-family: 'Biryani', sans-serif;
-}
-
-body{
-    margin: 0;
-    background: #000000;
-
-}
-.header{
-	width: 100%;
-	display: flex; 
-	justify-content: space-between;
-    background-color: #fff;
-
-}
-.header__img{
-    height: 60px;
-
-}
-.header__menu {
-	width: 50%;
-
-}
-.header__menu ul{
-	width: 100%;
-	list-style-type:none;
-	display: flex; 
-	justify-content: space-around;
-}
-*/
-
-*{
-    font-family: 'Public Sans', sans-serif;
-    
-}
-
-body{
-    margin: 0;
-    overflow-x: hidden;
-}
-/*
-    header
-*/
 .header{
     background-color: #fff;
     margin: 16px;
@@ -156,133 +102,36 @@ body{
     margin-top: 0px;
 }
 
-.card_sweb{  
-    width: 25%;
-    height:300px;
-    margin-left: 10%;
-    margin-top: 5%;
-    float: left;
+.card_list{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
 }
 
-.card_sweb__img{
-    display: block;
-    position: relative;
-    width: 400px;
-    height:290px;
+.card_list__item{  
+    width: 60vh;
+    height: 60vh;
+    margin : 6rem auto;
+
+}
+
+.card_list__item--img{ 
+    width: 100%;
+    height:100%;
     border-radius: 20px;
     opacity: 20%;
+    margin: auto;
 }
-.card_sweb h1{
-    color: #696942;
+.card_list__item--info{
+    position: relative;
+    top: -65%;
     text-align: center;
-    position: relative;
-    margin-top: 0%;  
-    font-family: 'Sawarabi Gothic', sans-serif;
-    font-size: 35px; 
 }
 
-.sweb{
-    position: relative;
-    top:-165px;
-
+.card_list__item--info p{
+    display: none;
 }
 
-
-.card_smob__img{
+.card_list__item--info h1:hover + p{
     display: block;
-    position: relative;
-    width: 400px;
-    height:290px;
-    border-radius: 20px;
-    opacity: 20%;
-    
-}
-
-.smob{
-    position: relative;
-    top:-160px;
-}
-
-.card_smob {
-    position: relative;
-    justify-content: flex-end;
-    margin-right: 15%;
-    margin-top: 5%;
-    float: right;
-
-}
-.card_smob h1{
-    color:#696942;
-    text-align: center;
-    position: relative;
-    margin-top: 0%; 
-    top: 0px;
-    left: 20px; 
-    font-family: 'Sawarabi Gothic', sans-serif;
-    font-size: 35px;
-}
-
-.card_sconsup{
-    position: relative;
-    justify-content: flex-start;
-    margin-left: 10%;
-    margin-top: 5%;
-    float: left;
-}
-
-.card_sconsup__img{
-    display: block;
-    position: relative;
-    width: 400px;
-    height:290px;
-    border-radius: 20px;
-    opacity: 20%;
-}
-
-.sconsup{
-    position: relative;
-    top:-190px;    
-}
-
-.card_sconsup h1{
-    color:#696942;
-    text-align: center;
-    position: relative;
-    margin-top: 0%; 
-    top: 0px; 
-    font-size: 35px;
-    font-family: 'Sawarabi Gothic', sans-serif;
-}
-
-.card_sbrand{
-    position: relative;
-    justify-content: flex-end;
-    margin-right: 15%;
-    float: right;
-    margin-top: 25px;
-}
-.card_sbrand__img{
-    display: block;
-    position: relative;
-    width: 400px;
-    height:290px;
-    border-radius: 20px;
-    opacity: 20%;
-    justify-content: right;
-}
-
-.sbrand{
-    position: relative;
-    top:-160px;
-}
-
-.card_sbrand h1{
-    color:#696942;
-    text-align: center;
-    position: relative;
-    margin-top: 0%; 
-    top: 0px;
-    left: 20px; 
-    font-family: 'Sawarabi Gothic', sans-serif;
-    font-size: 35px;
 }
