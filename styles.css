@@ -140,3 +140,149 @@ body{
     color: #E8BE1F;
 }
 
+.services{
+    margin-top: 5%;
+}
+.services h2{
+    font-family: 'Chonburi', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+.services hr{
+    width:10%;
+    text-align:center;
+    border: 5px solid #9C7C0A;
+    border-radius: 10px;
+    margin-top: 0px;
+}
+
+.card_sweb{  
+    width: 25%;
+    height:300px;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.card_sweb__img{
+    display: block;
+    position: relative;
+    width: 400px;
+    height:290px;
+    border-radius: 20px;
+    opacity: 20%;
+}
+.card_sweb h1{
+    color: #696942;
+    text-align: center;
+    position: relative;
+    margin-top: 0%;  
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 35px; 
+}
+
+.sweb{
+    position: relative;
+    top:-165px;
+
+}
+
+
+.card_smob__img{
+    display: block;
+    position: relative;
+    width: 400px;
+    height:290px;
+    border-radius: 20px;
+    opacity: 20%;
+    
+}
+
+.smob{
+    position: relative;
+    top:-160px;
+}
+
+.card_smob {
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: 5%;
+    float: right;
+
+}
+.card_smob h1{
+    color:#696942;
+    text-align: center;
+    position: relative;
+    margin-top: 0%; 
+    top: 0px;
+    left: 20px; 
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 35px;
+}
+
+.card_sconsup{
+    position: relative;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-top: 5%;
+    float: left;
+}
+
+.card_sconsup__img{
+    display: block;
+    position: relative;
+    width: 400px;
+    height:290px;
+    border-radius: 20px;
+    opacity: 20%;
+}
+
+.sconsup{
+    position: relative;
+    top:-190px;    
+}
+
+.card_sconsup h1{
+    color:#696942;
+    text-align: center;
+    position: relative;
+    margin-top: 0%; 
+    top: 0px; 
+    font-size: 35px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.card_sbrand{
+    position: relative;
+    justify-content: flex-end;
+    margin-right: 15%;
+    float: right;
+    margin-top: 25px;
+}
+.card_sbrand__img{
+    display: block;
+    position: relative;
+    width: 400px;
+    height:290px;
+    border-radius: 20px;
+    opacity: 20%;
+    justify-content: right;
+}
+
+.sbrand{
+    position: relative;
+    top:-160px;
+}
+
+.card_sbrand h1{
+    color:#696942;
+    text-align: center;
+    position: relative;
+    margin-top: 0%; 
+    top: 0px;
+    left: 20px; 
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 35px;
+}
