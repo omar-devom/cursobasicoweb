@@ -41,33 +41,21 @@ body{
 */
 
 *{
-    font-family: 'Biryani', sans-serif;
+    font-family: 'Public Sans', sans-serif;
+    
 }
 
 body{
     margin: 0;
-    background: #000000;
+    overflow-x: hidden;
 }
-
-
-.header{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    background-color: #fff;
-}
-
-.header__img{
-    height: 60px;
-}
-
-.header__menu
 /*
     header
 */
 .header{
     background-color: #fff;
     margin: 16px;
+    z-index: 999;
 }
 .header__img{
     height: 60px;
@@ -110,45 +98,110 @@ body{
 */
 
 .to_action{
-    min-height: 100vh;
-    
+    max-height: 100vh;
 }
 
 .to_action__img{
-    min-width: 100vw;
-    position: absolute;
-    right: 0;
-    top: 10%;
- 
+    display: block;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
 }
 
 .to_action__img--layer{
-    position: absolute;
-    right: 0;
-    top: 10%;
+    position:  absolute;
+    top: 9%;
+    left: 0%;
     background-color: #36362276;
     min-height: 100vh;
     width: 100vw;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .to_action__button{
-    position: absolute;
-    top: 50%;
-    left: 50%;
     border: 8px solid #fff;
-    margin: 0px;
+    
 }
 
 .to_action__button h1{
     text-align: center;
-    font-family: 'Lobster', cursive;
+    font-family: 'Monoton', cursive;
     color: #fff;
     padding: 50px;
-    margin: 0px;
+
 }
 
 .to_action__button h1:hover{
-    
     color: #E8BE1F;
 }
+
+/* Landing Page - Section About_us */
+
+.enterprise_info{
+
+   /* margin-block-start: 5%; */
+   margin: auto;
+      
+}
+
+.enterprise_info__about_us{
+
+    /*margin-left: 30vw; */
+    margin: auto;
+    width: 50vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.enterprise_info__mv{
+
+    display: flex;
+    flex-direction: row;
+}
+
+.enterprise_info__mission{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+    
+}
+
+.enterprise_info__mission hr{
+
+
+}
+
+.enterprise_info__vision{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    /* align-content: flex-end; */
+    text-align: end;
+   
+}
+
+/*
+.enterprise_info__line{
+
+    border: 5px solid red;
+    width: 15%;
+    margin: 0;
+
+} */
+
+
+
+
+
+
 
