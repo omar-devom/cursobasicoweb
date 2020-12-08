@@ -109,23 +109,26 @@
 }
 
 .card_list__item{  
-    width: 60vh;
-    height: 60vh;
+    width: 70vh;
+    height: 50vh;
     margin : 6rem auto;
-
 }
 
 .card_list__item--img{ 
     width: 100%;
     height:100%;
     border-radius: 20px;
-    opacity: 20%;
+    opacity: 30%;
     margin: auto;
 }
 .card_list__item--info{
     position: relative;
     top: -65%;
     text-align: center;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size: 25px;
+    opacity: 70%;
+    color: #696942;
 }
 
 .card_list__item--info p{
