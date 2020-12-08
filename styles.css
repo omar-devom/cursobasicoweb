@@ -9,7 +9,14 @@
 }
 
 .header__img:hover{
-    background-color: #B5B5A8;
+    /*background-color: #B5B5A8;*/
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 11%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -webkit-transition: all 50ms;
 }
 
 .header__menu{
@@ -29,8 +36,10 @@
     
 }
 
-.header__menu ul li:hover{
-    background-color: #B5B5A8;
+/*.header__menu ul li:hover{*/
+.header__menu ul li a:hover{
+    /*background-color: #B5B5A8;*/
+    color: blue
 }
 
 .header__menu ul li a{
@@ -55,12 +64,12 @@
 }
 
 .to_action__img--layer{
-    position:  absolute;
-    top: 9%;
+    position: absolute;
+    top: 10%;
     left: 0%;
     background-color: #36362276;
-    min-height: 100vh;
-    width: 100vw;
+    min-height: 88vh;
+    width: 103vw;
     text-align: center;
 
     display: flex;
@@ -70,8 +79,9 @@
 }
 
 .to_action__button{
-    border: 8px solid #fff;
-    
+    margin-top: 11rem;
+    border: 9px solid #fff;
+    width: 29vw;
 }
 
 .to_action__button h1{
@@ -206,5 +216,103 @@
 }
 
 .card_list__item--info h1:hover + p{
+
     display: block;
+}
+
+.footer{
+    background-color: black;
+    height: 793px;
+}
+
+.footer_img_devom{
+    width: 13rem;
+    margin-left: 5rem;
+    margin-top: 9rem;
+    height: 9rem;
+    float: left;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200px;
+    margin-right: 2rem;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200px;
+    margin-right: 2rem;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200px;
+    margin-right: 2rem;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 200px;
+    margin-left: 0rem;
+  }
+
+  .footer_social_media{
+    float: right;
+    display: flex;
+    margin-top: 7rem;
+    margin-right: 9rem;
+  }
+
+  .footer_list{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+
+  .footer_list_web{
+    color:white;
+  }
+
+.footer_list_mobile{
+    color: white;
+}
+
+.footer_list_support{
+    color: white;
+}
+
+.footer_list_branding{
+    color: white;
+}
+
+.footer_list_diseño{
+    color: white;
+
 }
